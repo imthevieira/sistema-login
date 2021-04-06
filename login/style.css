@@ -1,0 +1,79 @@
+body {
+    background: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 520px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+}
+
+input#text-login {
+    width: 400px;
+    padding: 15px;
+    border-top-left-radius: 220px;
+    border-top-right-radius: 220px;
+    border-bottom-left-radius: 220px;
+    border-bottom-right-radius: 220px;
+    height: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border-color: transparent;
+    outline: none;
+    background: #e8eff9;
+    font-size: 15px;
+    font-family: 'Asap',sans-serif;
+    font-weight: bold;
+    color: #666;
+}
+
+input#login {
+    width: 450px;
+    margin-left: 30px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgb(84, 206, 84);
+    color: rgba(255, 255, 255, 0.952);
+    cursor: pointer;
+    border-color: transparent;
+    border-top-left-radius: 220px;
+    border-top-right-radius: 220px;
+    border-bottom-left-radius: 220px;
+    border-bottom-right-radius: 220px;
+    font: normal 15pt Arial ;
+    outline: none;
+    text-align: center;
+    margin-top: 15px;
+}
+input#login:hover, input#login:active{
+    background-color: rgb(112, 170, 112);
+    outline: none;
+  }
+
+p1#login-mintext {
+    font: normal 10pt Arial;
+    margin-left: 56px;
+}
+span#checkbox {
+    font: normal 10pt Arial;
+    text-align: center;
+}
+#checkbox-qd{
+    margin-left: 45px;
+    text-align: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style:  italic;
+}
